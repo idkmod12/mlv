@@ -164,8 +164,9 @@
   {
     "name": "MIST",
     "line": 216,
-    "body": "",
-    "links": []
+    "body": "Embedded image from the document.",
+    "links": [],
+    "image": "assets/MIST.jpg"
   },
   {
     "name": "GN MATH",
