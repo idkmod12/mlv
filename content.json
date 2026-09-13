@@ -147,8 +147,19 @@
   {
     "name": "PETEZAH",
     "line": 213,
-    "body": "",
-    "links": []
+    "body": "Embedded link image from the document. The image links are also listed below for accessibility.",
+    "links": [
+      "https://cdn.jsdelivr.net/gh/newrelightedteam/math@master/nirbytes.svg",
+      "https://cdn.jsdelivr.net/gh/PeteZah-G/PeteZahStaticDone@main/new.svg?q=hi",
+      "https://cdn.jsdelivr.net/gh/PeteZah-G/PeteZahStaticDone@main/new.svg",
+      "https://quantil.jsdelivr.net/gh/PeteZah-G/PeteZahStaticDone@959d81f/new.svg",
+      "https://cdn.jsdelivr.net/gh/PeteZah-G/PeteZahStaticDone/main.svg",
+      "https://cdn.jsdelivr.net/gh/PeteZah-G/PeteZahStaticDrone@main/new.svg",
+      "https://cdn.jsdelivr.net/gh/Eraclio28/PeteZahStaticDone@main/new.svg",
+      "https://esm.sh/gh/PeteZah-G/PeteZahStaticDone@959d81f/new.svg",
+      "https://4rjfhvjk21x.cfd/"
+    ],
+    "image": "assets/petezah-links.svg"
   },
   {
     "name": "MIST",
