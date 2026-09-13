@@ -5073,8 +5073,9 @@
   {
     "name": "CHERRI",
     "line": 5652,
-    "body": "",
-    "links": []
+    "body": "Embedded image from the document. Open the image links shown here; the image is preserved from the document.",
+    "links": [],
+    "image": "assets/cherri.jpg"
   },
   {
     "name": "OPIUM",
@@ -5177,8 +5178,28 @@
   {
     "name": "BULL-33",
     "line": 5710,
-    "body": "=-",
-    "links": []
+    "body": "Embedded image from the document. Image links are listed below.",
+    "links": [
+      "https://s3.amazonaws.com/oiop/index.html",
+      "https://s3.us-east-1.amazonaws.com/oiop/index.html",
+      "https://oiop.s3.amazonaws.com/index.html",
+      "https://oiop.s3.us-east-1.amazonaws.com/index.html",
+      "https://s3.dualstack.us-east-1.amazonaws.com/oiop/index.html",
+      "https://oiop.s3.dualstack.us-east-1.amazonaws.com/index.html",
+      "https://s3.amazonaws.com/iuyt/index.html",
+      "https://s3.us-east-1.amazonaws.com/iuyt/index.html",
+      "https://iuyt.s3.amazonaws.com/index.html",
+      "https://iuyt.s3.us-east-1.amazonaws.com/index.html",
+      "https://s3.dualstack.us-east-1.amazonaws.com/iuyt/index.html",
+      "https://iuyt.s3.dualstack.us-east-1.amazonaws.com/index.html",
+      "https://s3.amazonaws.com/jlkl/index.html",
+      "https://s3.us-east-1.amazonaws.com/jlkl/index.html",
+      "https://jlkl.s3.amazonaws.com/index.html",
+      "https://jlkl.s3.us-east-1.amazonaws.com/index.html",
+      "https://s3.dualstack.us-east-1.amazonaws.com/jlkl/index.html",
+      "https://jlkl.s3.dualstack.us-east-1.amazonaws.com/index.html"
+    ],
+    "image": "assets/bull.jpg"
   },
   {
     "name": "Extra",
