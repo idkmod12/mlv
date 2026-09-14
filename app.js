@@ -1,4 +1,10 @@
-const $=s=>document.querySelector(s);let sections=[],byName=new Map(),active='MLV Title Screen';
+const $=s=>document.querySelector(s);
+const SITE_PASSWORD='123ooo#@!OOO',PASSWORD_KEY='isaiahs-mlv:site-access:v1';
+const gate=$('#password-gate'),shell=$('#site-shell');
+function unlock(){gate.hidden=true;shell.hidden=false;}
+try{if(sessionStorage.getItem(PASSWORD_KEY)==='ok')unlock();}catch{}
+$('#password-form').addEventListener('submit',event=>{event.preventDefault();const input=$('#site-password');if(input.value===SITE_PASSWORD){try{sessionStorage.setItem(PASSWORD_KEY,'ok');}catch{}unlock();}else{$('#password-error').hidden=false;input.select();}});
+let sections=[],byName=new Map(),active='MLV Title Screen';
 const groups={Games:{raw:'ġɑᗰΣʂ',art:true,choices:[['Sites','site-group'],['Singular games','singular'],['Extra.','direct'],['Google Doodles','direct'],['HTML','direct'],['Scratch','direct']]},Proxies:{raw:'РRo𝑥ɪΣʂ',art:true,choices:[['Sites','proxy-group'],['Extra','proxy-extra']]},TV:{raw:'┬ѵ',choices:[['┬ѵ.','direct']]},Music:{raw:'ɱυʂí¢',choices:[['1','direct'],['2','direct']]},Random:{raw:'Random',choices:[['Google Drive','direct'],['My Personal Favorites','direct']]},'Tools/Al':{raw:'Tools/Al',art:true,choices:[['1.','direct'],['2.','direct'],['3.','direct'],['4.','direct']]},Documents:{raw:'Documents',choices:[['Games','direct'],['My List','direct']]}};
 const singular=['MINECRAFT','FNAF','BASKETBALL STARS','CHESS.COM','SLOPE','Random,'];
 const proxy=['INTERSTEALLER','DOGE.','DOGE CENSOR','ASTROID','SHADOW','NETTLE WEB','SUNSET','ARSENIC','UTOPIA','FROGGIES ARCADE V3','ACCELERATION','EMERALD','ART CLASS','1346.lol','ACCELERATE','BOREDOM','BREAKIUM','CAMOUFALGE','CANLITE','CROXY PROXY','EQUINOX','FERN','ARCTIC','CHERRI','OPIUM','PHOTON','STUDY HUB','SERUM OS','DAYDREAMX','VOID NETWORK','BULL-33'];
