@@ -165,8 +165,37 @@
     "name": "MIST",
     "line": 216,
     "body": "Embedded image from the document.",
-    "links": [],
-    "image": "assets/MIST.jpg"
+    "links": [
+      "https://storage.googleapis.com/mathlearning/nexus/mist_358.html",
+      "http://s3.amazonaws.com/mistcalc/index.html",
+      "http://storage.googleapis.com/mistedu/index.html",
+      "https://s3.amazonaws.com/mistmath/index.html",
+      "https://s3.amazonaws.com/mistedu/index.html",
+      "https://storage.googleapis.com/mistmath/index.html",
+      "https://s3.amazonaws.com/ilovecalc/index.html",
+      "https://s3.amazonaws.com/mathisgreataf/index.html",
+      "https://s3.amazonaws.com/readingisgreataf/index.html",
+      "https://s3.amazonaws.com/bull33isgreataf/index.html",
+      "https://s3.amazonaws.com/mistmac/index.html",
+      "https://s3.amazonaws.com/macmist/index.html",
+      "https://s3.amazonaws.com/misting2/index.html"
+    ],
+    "image": "assets/MIST.jpg",
+    "imageLinks": [
+      "https://storage.googleapis.com/mathlearning/nexus/mist_358.html",
+      "http://s3.amazonaws.com/mistcalc/index.html",
+      "http://storage.googleapis.com/mistedu/index.html",
+      "https://s3.amazonaws.com/mistmath/index.html",
+      "https://s3.amazonaws.com/mistedu/index.html",
+      "https://storage.googleapis.com/mistmath/index.html",
+      "https://s3.amazonaws.com/ilovecalc/index.html",
+      "https://s3.amazonaws.com/mathisgreataf/index.html",
+      "https://s3.amazonaws.com/readingisgreataf/index.html",
+      "https://s3.amazonaws.com/bull33isgreataf/index.html",
+      "https://s3.amazonaws.com/mistmac/index.html",
+      "https://s3.amazonaws.com/macmist/index.html",
+      "https://s3.amazonaws.com/misting2/index.html"
+    ]
   },
   {
     "name": "GN MATH",
@@ -5075,8 +5104,15 @@
     "name": "CHERRI",
     "line": 5652,
     "body": "Embedded image from the document. Open the image links shown here; the image is preserved from the document.",
-    "links": [],
-    "image": "assets/cherri.jpg"
+    "links": [
+      "https://storage.googleapis.com/mathlearning/ilovessp/500klinks/cherri_2",
+      "https://christianity-rocks.cfd/"
+    ],
+    "image": "assets/cherri.jpg",
+    "imageLinks": [
+      "https://storage.googleapis.com/mathlearning/ilovessp/500klinks/cherri_2",
+      "https://christianity-rocks.cfd/"
+    ]
   },
   {
     "name": "OPIUM",
